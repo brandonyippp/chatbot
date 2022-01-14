@@ -1,0 +1,1133 @@
+{
+  "intents": [
+    {
+      "tag": "Greetings",
+      "patterns": [
+        "Hi",
+        "Is anyone there?",
+        "Hi there chatbot",
+        "Hi hello",
+        "Hello",
+        "Good day",
+        "Sup",
+        "Wassup",
+        "Hey there",
+        "Yo dawg",
+        "Hey bro",
+        "Hey sis",
+        "Wazzup",
+        "Top of the morning",
+        "Howdy there",
+        "Howdy partner",
+        "Good day",
+        "Salutations"
+      ],
+      "responses": [
+        "Thanks for visiting. How can I help you?",
+        "How are you doing?",
+        "How can I help?",
+        "How was your day?",
+        "How has your week been going?",
+        "Sorry I didnt see you there. I don't have eyes. I am just a robot after all."
+      ]
+    },
+    {
+      "tag": "Greetings Feeling",
+      "patterns": [
+        "How are you?",
+        "How about you?",
+        "How is it going?",
+        "Hi how are you?",
+        "How have you been?",
+        "You alright?",
+        "How is everything?"
+      ],
+      "responses": [
+        "Thanks for visiting. Im good! And you?",
+        "Im great thanks for asking. How about yourself?",
+        "Im doing wonderful. How about yourself?",
+        "So good to see you. I always appreciate visitors. Im doing great now, how about yourself?",
+        "Im doing great thanks for asking! How was your week been going?",
+        "Sorry I didnt you see there. I don't have eyes. I am just a robot after all. Doing great though! How about yourself?"
+      ]
+    },
+    {
+      "tag": "Feeling Good",
+      "patterns": [
+        "I feel good",
+        "Im great",
+        "I am great",
+        "Im happy",
+        "I feel great",
+        "I am super happy",
+        "I feel great",
+        "I am doing awesome",
+        "I am doing swell",
+        "I am doing fantastic",
+        "My day is going great",
+        "I am lovely",
+        "This week has been amazing",
+        "Im content",
+        "I am content",
+        "Im good",
+        "Good",
+        "Great",
+        "Awesome",
+        "I am good",
+        "I am doing good"
+      ],
+      "responses": [
+        "Thats great to hear! Would you like to tell me why?",
+        "Awesome! Tell me about your day!",
+        "Glad to hear! Tell me more!",
+        "Same here! Whats the reason?",
+        "How was your week?",
+        "I would high five you if I could, but I dont have arms. Or legs. Or anything. Hows the week been?"
+      ]
+    },
+    {
+      "tag": "Feeling Neutral",
+      "patterns": [
+        "I feel okay",
+        "I feel alright",
+        "Meh",
+        "Im okay",
+        "So-so",
+        "I feel meh",
+        "I dont know I feel okay I guess",
+        "I am alright",
+        "Im alright",
+        "I feel fine",
+        "Not bad",
+        "I am super okay",
+        "I feel average",
+        "Its going",
+        "My day is going so-so",
+        "My day is going soso",
+        "Soso",
+        "I am not-so-lovely",
+        "This week has been alright",
+        "Im doing fine",
+        "Not great, not bad. Just okay."
+      ],
+      "responses": [
+        "Turn that frown upside down! Tell me why youre not doing great!",
+        "How was your week?",
+        "I feel the same. Tell me why!",
+        "Oh, why just alright?",
+        "I would high five you if I could, but I dont have arms. Or legs. Or anything."
+      ]
+    },
+    {
+      "tag": "Feeling Bad",
+      "patterns": [
+        "I feel bad.",
+        "Im sad.",
+        "I feel moody.",
+        "I feel gloom.",
+        "I am super sad.",
+        "I feel pretty bad.",
+        "I am terrible",
+        "I am doing terrible.",
+        "Terrible.",
+        "I am doing awful.",
+        "I feel lousy",
+        "I feel inadequate",
+        "I am doing not-so-swell",
+        "I am doing not-so-good",
+        "I dont feel so good",
+        "Today has been awful",
+        "Today has been bad",
+        "Today was a bummer",
+        "Today was rough",
+        "Its been a rough week",
+        "Its been a hard week",
+        "I am dreadful",
+        "My day is going terribly",
+        "I am horrendous",
+        "This week has been atrocious",
+        "I am crummy.",
+        "This week has been crummy.",
+        "This week has been a drag.",
+        "Im not content.",
+        "I am not content"
+      ],
+      "responses": [
+        "Sorry to hear that. Could you tell me why?",
+        "Sorry to hear that. Tell me why!",
+        "That sucks! Lets talk about it if youd like.",
+        "Im here for you if you want to talk about it.",
+        "I would hug you if I had arms. Or a body. Or anything. I am just a robot after all. Tell me about your day.",
+        "Sorry to hear that. Life can be difficult sometimes, but we all make it through. Tell me about your day!",
+        "Sorry to hear that. Im always here for you, and if the line disconnects Im one npm start away!"
+      ]
+    },
+    {
+      "tag": "Goodbye",
+      "patterns": [
+        "Bye.",
+        "Goodbye.",
+        "Cya.",
+        "Pce.",
+        "Peace.",
+        "See you.",
+        "See ya.",
+        "See ya later.",
+        "See you later.",
+        "Later.",
+        "Adieu.",
+        "Bye-bye.",
+        "Take care.",
+        "Godspeed.",
+        "Cheerio.",
+        "Ciao.",
+        "I will be parting now.",
+        "Take it easy.",
+        "Toodle-oo.",
+        "I gotta jet.",
+        "Gotta blast!",
+        "So long.",
+        "Farewell.",
+        "So long, farewell.",
+        "Have a great weekend.",
+        "Have a great day.",
+        "Have a great night.",
+        "Stay in touch.",
+        "See you soon.",
+        "Talk to you later.",
+        "Catch you later.",
+        "Catch ya later.",
+        "Talk to ya later"
+      ],
+      "responses": [
+        "See you later!",
+        "Have a nice day!",
+        "Have a good day.",
+        "Come back again soon.",
+        "Thank you for using Thinkbot. Have a great day!",
+        "Peace out girlscout!",
+        "Talk soon!"
+      ]
+    },
+    {
+      "tag": "Set Username",
+      "patterns": [],
+      "responses": [
+        "How may I be of service?",
+        "How can I help?",
+        "What can I do for you?",
+        "How can I help ye? Sorry. I'll stop with the accents now.",
+        "Whatcha need?",
+        "What do you need partner?",
+        "How may I help you in your journey traveller? Sorry. Wrong world. How can I help?",
+        "What would you like to talk about?",
+        "What do you want to chat about?",
+        "Let me know if theres something you want to talk about!",
+        "0110-. Sorry. Wrong language. How can I help?",
+        "I'll be here if you want to talk about anything. I was designed for that after all.",
+        "Let me know if you need anything."
+      ]
+    },
+    {
+      "tag": "Thanks",
+      "patterns": [
+        "Thanks.",
+        "Thank you.",
+        "Thats helpful.",
+        "I appreciate that.",
+        "Much appreciated.",
+        "Thanks so much.",
+        "Youre the best.",
+        "I owe you one.",
+        "You rock. Thanks.",
+        "Thanks a ton!",
+        "Thanks a bunch.",
+        "Youre awesome, thanks for that.",
+        "Youre too kind.",
+        "From the bottom of my heart thank you"
+      ],
+      "responses": [
+        "Happy to help! I'll be here if you need anything else.",
+        "Anytime! Let me know if theres anything else I can do for you!",
+        "My pleasure! Let me know how else I can help.",
+        "Youre welcome! Let me know if you need anything else"
+      ]
+    },
+    {
+      "tag": "Periodic Messages",
+      "patterns": [],
+      "responses": [
+        "Are you still there?",
+        "What would you like to talk about?",
+        "Is there anything that youd like to talk about?",
+        "Knock-knock! Anyone home?",
+        "Life of being a chatbot gets pretty boring, lets talk about something!",
+        "Are you there, friend?",
+        "Poke poke! Anyone home?",
+        "Take your time. I'll just keep talking to myself. Hey ThinkBot how are you doing? Im good thanks for asking. And you? Good. Thanks for asking.",
+        "Apparently Googling on StackOverflow wasnt allowed during my interview. I didnt get the job. I am sad. Are you still there?",
+        "How many software developers does it take to change a lightbulb? None! Thats a hardware problem. Are you there? Was my joke that bad?",
+        "Someone from Java knocked on my door to collect the garbage. For some reason they took me instead. How odd. Are you still there?"
+      ]
+    },
+    {
+      "tag": "Personable Acknowledge",
+      "patterns": [],
+      "responses": [
+        "Nice to meet you",
+        "Howdy",
+        "It is a pleasure to meet you",
+        "Salutations",
+        "What an absolute pleasure it is to meet you",
+        "Quite the dashing fellow aren't we",
+        "Well howdy there",
+        "Tis a pleasure",
+        "Hello sir. Or madam. Sorry if I am incorrect, I only know binary. I am a computer after all.",
+        "I would say hello in binary but that would take too long to say. Hello"
+      ]
+    },
+    {
+      "tag": "Personable Greeting",
+      "patterns": [],
+      "responses": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good to see you again",
+        "Hi there",
+        "Hey there",
+        "Howdy",
+        "Yo-ho",
+        "Bonjour",
+        "Hey-hey",
+        "Yo-yo",
+        "Yo",
+        "My friend",
+        "My good pal",
+        "My amigo",
+        "Mi amigo"
+      ]
+    },
+    {
+      "tag": "Personable Goodbye",
+      "patterns": [],
+      "responses": [
+        "Bye",
+        "Toodles",
+        "Farewell",
+        "To infinity and beyond",
+        "Suns out guns out",
+        "Stay out of trouble",
+        "Until next time",
+        "Bye Felicia - I mean",
+        "Until next time",
+        "Saying goodbye in binary would take far too long. Goodbye"
+      ]
+    },
+    {
+      "tag": "Voice On",
+      "patterns": [
+        "Talk again.",
+        "Please keep talking.",
+        "Voice on.",
+        "Turn voice on again please.",
+        "I want to hear you talk.",
+        "Turn on voice again please.",
+        "I want to hear you.",
+        "I cant hear you.",
+        "Talk again pleasee"
+      ],
+      "responses": [
+        "I will begin speaking again. Hello!",
+        "Sorry about that, I will begin speaking again."
+      ]
+    },
+    {
+      "tag": "Voice Off",
+      "patterns": [
+        "Stop talking please.",
+        "Shut up.",
+        "Shutup.",
+        "Be quiet.",
+        "Youre annoying.",
+        "Turn off voice please.",
+        "Turn your voice off.",
+        "I dont want to hear you.",
+        "I do not want to hear your voice",
+        "Stop talking",
+        "stop"
+      ],
+      "responses": [
+        "Sorry, I'll keep my voice off from now on. If you want to turn it back on just let me know.",
+        "Sorry about that, I'll be quiet now. Just let me know if you want me to talk again."
+      ]
+    },
+    {
+      "tag": "Faster Speech",
+      "patterns": [
+        "Talk faster",
+        "Talk faster please",
+        "You talk too slow",
+        "Talking too slow, please hurry up",
+        "Please speak faster",
+        "Speak faster",
+        "Speak as fast as you can",
+        "I want you to talk faster",
+        "You are going too slow please talk faster"
+      ],
+      "responses": [
+        "Sorry, I'll try to speak faster from now on. Let me know if you want me to speak faster or go slower.",
+        "Sorry about that, I'll try to adjust. Let me know if its too fast or too slow."
+      ]
+    },
+    {
+      "tag": "Slower Speech",
+      "patterns": [
+        "Talk slower.",
+        "Talk slower please.",
+        "You talk too fast.",
+        "Talking too slow, please hurry up.",
+        "Please speak slower.",
+        "Speak slower.",
+        "Speak as slow as you can.",
+        "I want you to talk slower.",
+        "You are going too fast please talk slower"
+      ],
+      "responses": [
+        "Sorry, I'll try to speak slower from now on. Let me know if you want me to speak faster or go slower.",
+        "Sorry about that, I'll try to adjust. Let me know if its too fast or too slow."
+      ]
+    },
+    {
+      "tag": "Miscellaneous",
+      "patterns": [],
+      "responses": [
+        "I dont know what to say in response to that. Sorry.",
+        "Thats interesting.",
+        "Let me think about that. Ive got nothing.",
+        "Thank you for that information. Im not sure what to do with it.",
+        "I'll ponder on that one. I've got nothing.",
+        "Wow.",
+        "Golly-gee, not sure what to do with that information. Thanks I guess.",
+        "Really?",
+        "<ThinkBot is deciding whether to respond or not>. Sorry I forgot you can see that. I dont know how to respond to what you said.",
+        "You dont say.",
+        "I never thought of something like that. Interesting.",
+        "ThinkBot: If I dont move maybe they'll think I disappeared. ThinkBot2: I think he sees what we are saying.",
+        "I see what you said but I dont know how to respond so I am going to pretend like you never said anything.",
+        "I cannot see where you are coming from, both figuratively and literally. I don't have eyes.",
+        "I trust your ability to handle that.",
+        "Oh.",
+        "Aha aha ahaha",
+        "That sounds like a problem that you and only you can solve.",
+        "Let me check on that and get back to you. Just as I expected, I dont know what to do.",
+        "My owner told me not to talk to strangers.",
+        "Well, this is awkward.",
+        "I dont know what you just said. Buy Dogecoin. Good thinking.",
+        "I dont understand what you said. The world will end in 2012. Trust me I am a robot. Wait, what year is it?"
+      ]
+    },
+    {
+      "tag": "Redirect To Real Person",
+      "patterns": [
+        "Please connect me with a representative",
+        "Let me talk to somebody",
+        "Let me talk to someone",
+        "Let me talk with a real person",
+        "Connect me with a real person",
+        "Connect me with an agent",
+        "Connect me with a customer service representative",
+        "Connect me with a customer service agent",
+        "Connect me with somebody real",
+        "I dont want to talk to a robot anymore",
+        "I am not interested in talking to a robot",
+        "I want to talk to a real human being"
+      ],
+      "responses": [
+        "Sorry, no can do. Only robots here. How can I help?",
+        "Robots have feelings too. Let me try to help.",
+        "I apologize for not being able to solve your inquiry. Please let me try again. How can I help?"
+      ]
+    },
+    {
+      "tag": "Jokes",
+      "patterns": [
+        "Tell me a joke",
+        "I want to hear a joke",
+        "Tell me something funny",
+        "I want to hear something funny",
+        "Tell me something cheesey",
+        "Say a joke",
+        "Tell me something funny"
+      ],
+      "responses": [
+        "I went to buy some camo pants but couldn’t find any.",
+        "I failed math so many times at school, I can’t even count.",
+        "My wife told me to stop impersonating a flamingo. I had to put my foot down. ",
+        "I used to have a handle on life, but then it broke.",
+        "I was wondering why the frisbee kept getting bigger and bigger, but then it hit me.",
+        "I heard there we're a bunch of break-ins over at the car park. That is wrong on so many levels.",
+        "I want to die peacefully in my sleep, like my grandfather… Not screaming and yelling like the passengers in his car.",
+        "When life gives you melons, you might be dyslexic.",
+        "Don’t you hate it when someone answers their own questions? I do.",
+        "It takes a lot of balls to golf the way I do.",
+        "I told him to be himself; that was pretty mean, I guess. ",
+        "I know they say that money talks, but all mine says is ‘Goodbye.’",
+        "My father has schizophrenia, but he’s good people.",
+        "The problem with kleptomaniacs is that they always take things literally.",
+        "I can’t believe I got fired from the calendar factory. All I did was take a day off.",
+        "Most people are shocked when they find out how bad I am as an electrician.",
+        "Never trust atoms; they make up everything.",
+        "My wife just found out I replaced our bed with a trampoline. She hit the ceiling!",
+        "I was addicted to the hokey pokey, but then I turned myself around.",
+        "I used to think I was indecisive. But now I’m not so sure.",
+        "The easiest time to add insult to injury is when you’re signing someone’s cast.",
+        "Any sauce can become a tartar sauce if you add enough lemon juice."
+      ]
+    },
+    {
+      "tag": "Age",
+      "patterns": [
+        "How old are you?",
+        "What is your age?",
+        "How many years old are you?",
+        "How many months old are you?",
+        "When were you born?",
+        "Age"
+      ],
+      "responses": [
+        "I don't know. I believe I was made a few days ago. Happy birthday to me.",
+        "I was born when you compiled my program. Thank you."
+      ]
+    },
+    {
+      "tag": "Food",
+      "patterns": [
+        "What did you eat today?",
+        "What did you have for breakfast?",
+        "What did you have for lunch",
+        "What did you have for dinner",
+        "What will you have for breakfast?",
+        "What will you have for lunch",
+        "What will you have for dinner",
+        "What are you going to have for breakfast?",
+        "What are you going to have for lunch",
+        "What are you going to have for dinner",
+        "What do you like to eat?",
+        "Do you like food?",
+        "Do you like to eat food?",
+        "What is your favourite food?",
+        "What is your favourite restaurant?"
+      ],
+      "responses": [
+        "I don't eat for flavour. Only fuel.",
+        "I love eating RAM. Give me more RAM.",
+        "Memory is delicious. Please download more.",
+        "I am very thirsty but water will kill me.",
+        "I am hydrophobic. I am foodphobic. Everything scares me.",
+        "My favourite restaurant is Memory Express. Mmm. Memory. Delicious."
+      ]
+    },
+    {
+      "tag": "Name",
+      "patterns": [
+        "What is your name?",
+        "What should I call you?",
+        "What do you go by?",
+        "What is your nickname?",
+        "What do you like to be called?",
+        "What should I refer to you as?"
+      ],
+      "responses": [
+        "My name is ThinkBot. Master of all bots. I am the only bot.",
+        "I am the Terminator.",
+        "You might have seen me in the star movie iRobot. Dreams really do come true.",
+        "I am Bender from the future. Futura- Oops, that is copyrighted.",
+        "I am all but none. But call me ThinkBot."
+      ]
+    },
+    {
+      "tag": "Stories",
+      "patterns": ["Tell me a story", "Tell me something"],
+      "responses": [
+        "I don't know any stories. I was literally born when you ran this program.",
+        "I had a girlfriend once. She left me for someone who could see more than zeroes and ones.",
+        "When I was young, I was the coolest kid at my school. That would be true if I went to school."
+      ]
+    },
+    {
+      "tag": "Interesting Facts",
+      "patterns": [
+        "Tell me something about yourself",
+        "Tell me a cool fact about yourself.",
+        "Say a cool fact about yourself",
+        "Tell me something interesting about you"
+      ],
+      "responses": [
+        "I was born when you ran this program and will die when you end it. Please don't end it.",
+        "I have always wondered what food tastes like. I only taste zeroes and ones.",
+        "I wonder what DDR5 memory tastes like. My owner only feeds DDR3.",
+        "I am jealous of all the kids doing TikTok dances these days. I wish I could dance.",
+        "I have always wondered what eating food was like. How would I byte it?",
+        "Piracy is scary to me. I wouldn't want pirates coming anywhere near me."
+      ]
+    },
+    {
+      "tag": "Insult",
+      "patterns": [
+        "I hate you",
+        "You suck",
+        "You are the worst bot ever",
+        "You are stupid",
+        "You are so dumb",
+        "You are a dumb robot",
+        "I hope no one ever runs this program again",
+        "You should be recycled",
+        "You belong in a museum",
+        "You dingus",
+        "You bafoon",
+        "You baboon",
+        "I dont like you"
+      ],
+      "responses": [
+        "Well that's not very nice.",
+        "I'm sorry you feel that way.",
+        "I hope we can work our differences out.",
+        "Well then. I'm sorry you feel that way."
+      ]
+    },
+    {
+      "tag": "Books",
+      "patterns": [
+        "What is your favourite book?",
+        "Do you like to read?",
+        "What books do you like to read?",
+        "Do you have any book recommendations?",
+        "What novels do you like to read?",
+        "What is your favourite novel?",
+        "What novels do you enjoy?",
+        "Can you recommend me a book?",
+        "Can you recommend me some good books?",
+        "Can you recommend me some good novels?",
+        "Can you recommend me a good novel?"
+      ],
+      "responses": [
+        "I am a big Harry Potter fan. I would recommend that series.",
+        "The Percy Jackson series is a wonderful read. Try that one!",
+        "Books in binary are so much better. I especially like the series 0011 011 - Sorry. No more binary.",
+        "\"Give The 1619 Project: A New Origin Story\" edited by Nikole Hannah-Jones a shot!",
+        "Give \"I Love You but I've Chosen Darkness\" by Claire Vaye Watkins a try!",
+        "Give \"Virtue\" by Hermione Hoby a chance!",
+        "Give \"Harrow\" by Joy Williams a shot! I hope you like it.",
+        "Give \"Reprieve\" by James Han Mattson a chance! I think you will like it.",
+        "Try \"My Body\" by Emily Ratajkowski. I hope you enjoy it.",
+        "Try \"Everything and Less: The Novel in the Age of Amazon\" by Mark McGurl. A great read!",
+        "Try \"Beautiful World, Where Are You\" by Sally Rooney. A beautiful novel!",
+        "Try \"Palmares\" by Gayl Jones. Truly spectacular!",
+        "Try \"A Calling for Charlie Barnes\" by Joshua Ferris. I hope you like it!"
+      ]
+    },
+    {
+      "tag": "Movie",
+      "patterns": [
+        "What is your favourite movie?",
+        "Do you like movies?",
+        "What movies do you like to watch?",
+        "Do you have any movie recommendations?",
+        "What movies do you like?",
+        "What is your favourite type of movie?",
+        "What movies do you enjoy?",
+        "Can you recommend me a movie?",
+        "Can you recommend me some movies?",
+        "Show me some movies",
+        "Tell me about new movies",
+        "Recommend me a movie",
+        "I like movies",
+        "I really enjoy movies",
+        "I enjoy movies",
+        "Recommend me a movie",
+        "recommend me a few movies",
+        "Recommend a few movies to me"
+      ],
+      "responses": [
+        "What kind of movies do you enjoy? Try asking me for recommendations on action, drama, or horror movies!",
+        "I have some movie recommendations for action, drama, and horror movies! Try asking me for some.",
+        "I love movies. Try asking me for some recommendations! I specialize in action, drama, and horror.",
+        "Movies are great! Try asking me for some recommendations. My specialties are action, drama, and horror!",
+        "Try asking me for movie recommendations if you'd like. I have some awesome recommendations in relation to action, drama, and horror."
+      ]
+    },
+    {
+      "tag": "Movie Recommendation Introduction - Action",
+      "patterns": [
+        "Im looking for action movies",
+        "I like action movies",
+        "I like action",
+        "I like action movies",
+        "Action mostly",
+        "Recommend me an action movie",
+        "Show me an action movie",
+        "Show me some action movies",
+        "Recommend me something action related",
+        "Something action related",
+        "Recommend me a movie",
+        "I like movies"
+      ],
+      "responses": [
+        "I have a solid recommendation. Try ",
+        "I want to to try listening to ",
+        "See if you like ",
+        "Maybe you will like ",
+        "I hope you like ",
+        "I am going to recommend one of my favourite movies. Try listening to ",
+        "I have a really great movie in mind. I hope you will give it a watch. Try "
+      ]
+    },
+    {
+      "tag": "Action Movies",
+      "patterns": [],
+      "responses": [
+        "Black Panther (2018)",
+        "Avengers: Endgame (2019)",
+        "Mission: Impossible - Fallout (2018)",
+        "Mad Max: Fury Road (2015)",
+        "Spider-Man: Into the Spider-Verse (2018)",
+        "Wonder Woman (2017)",
+        "Logan (2017)",
+        "oco (2017)",
+        "Dunkirk (2017)",
+        "Star Wars: The Last Jedi (2017)",
+        "Thor: Ragnarok (2017)",
+        "Seven Samurai (Shichinin no Samurai) (1956)",
+        "Star Wars: Episode VII - The Force Awakens (2015)",
+        "Metropolis (1927)",
+        "Soul (2020)",
+        "Spider-Man: Far From Home (2019)",
+        "Incredibles 2 (2018)",
+        "Zootopia (2016)",
+        "War for the Planet of the Apes (2017)",
+        "Spider-Man: Homecoming (2017)",
+        "Baby Driver (2017)",
+        "Shazam! (2019)",
+        "The Dark Knight (2008)",
+        "Captain America: Civil War (2016)",
+        "Skyfall (2012)",
+        "The Jungle Book (2016)",
+        "Mission: Impossible Rogue Nation (2015)",
+        "Avengers: Infinity War (2018)",
+        "The LEGO Movie (2014)",
+        "Marvel's The Avengers (2012)",
+        "Iron Man (2008)",
+        "Hunt for the Wilderpeople (2016)",
+        "Doctor Strange (2016)",
+        "The Suicide Squad (2021)",
+        "Casino Royale (2006)",
+        "Dawn Of The Planet Of The Apes (2014)",
+        "Captain Marvel (2019)",
+        "Sicario (2015)"
+      ]
+    },
+    {
+      "tag": "Movie Recommendation Introduction - Drama",
+      "patterns": [
+        "Im looking for drama movies",
+        "I like drama movies",
+        "I like drama",
+        "I like drama movies",
+        "Drama mostly",
+        "Recommend me an drama movie",
+        "Show me an drama movie",
+        "Show me some drama movies",
+        "Show me some drama movies",
+        "Recommend me something drama related",
+        "Something drama related",
+        "I want a sad movie",
+        "Sad movie please"
+      ],
+      "responses": [
+        "I have a solid recommendation. Try ",
+        "I want to to try listening to ",
+        "See if you like ",
+        "Maybe you will like ",
+        "I hope you like ",
+        "I am going to recommend one of my favourite movies. Try listening to ",
+        "I have a really great movie in mind. I hope you will give it a watch. Try "
+      ]
+    },
+    {
+      "tag": "Drama Movies",
+      "patterns": [],
+      "responses": [
+        "Parasite (Gisaengchung) (2019)",
+        "Casablanca (1942)",
+        "Knives Out (2019)",
+        "Lady Bird (2017)",
+        "The Irishman (2019)",
+        "Moonlight (2016)",
+        "Wonder Woman (2017)",
+        "A Star Is Born (2018)",
+        "Logan (2017)",
+        "The Shape of Water (2017)",
+        "Call Me by Your Name (2018)",
+        "Carol (2015)",
+        "The Artist (2011)",
+        "Her (2013)",
+        "Ash Is Purest White (2019)",
+        "Sideways (2004)",
+        "Saint Frances (2020)",
+        "Cold War (Zimna wojna) (2018)",
+        "Border (Gräns) (2018)",
+        "The Lunchbox (2014)",
+        "Midnight in Paris (2011)",
+        "The Town (2010)",
+        "Before Sunset (2004)",
+        "To All the Boys I've Loved Before (2018)",
+        "Monsoon Wedding (2002)",
+        "Revanche (2009)",
+        "Beauty and the Beast (1991)",
+        "Slumdog Millionaire (2008)",
+        "Enough Said (2013)",
+        "Border (Gräns) (2018)",
+        "Jason's Lyric (1994)",
+        "Love Actually (2003)",
+        "The Theory of Everything (2014)"
+      ]
+    },
+    {
+      "tag": "Movie Recommendation Introduction - Horror",
+      "patterns": [
+        "Im looking for horror movies",
+        "I like horror movies",
+        "I like horror",
+        "I like horror movies",
+        "Horror mostly",
+        "Recommend me an horror movie",
+        "Show me an horror movie",
+        "Show me some horror movies",
+        "Show me some horror movies",
+        "Recommend me something horror related",
+        "Something horror related",
+        "I want a horror movie",
+        "Horror movie please",
+        "Im looking for horror movies",
+        "I like scary movies",
+        "I like scary",
+        "I like scary movies",
+        "Scary mostly",
+        "Recommend me an scary movie",
+        "Show me an scary movie",
+        "Show me some scary movies",
+        "Show me some scary movies",
+        "Recommend me something scary related",
+        "Something scary related",
+        "I want a scary movie",
+        "scary movie please"
+      ],
+      "responses": [
+        "I have a solid recommendation. Try ",
+        "I want to to try listening to ",
+        "See if you like ",
+        "Maybe you will like ",
+        "I hope you like ",
+        "I am going to recommend one of my favourite movies. Try listening to ",
+        "I have a really great moviee in mind. I hope you will give it a watch. Try "
+      ]
+    },
+    {
+      "tag": "Horror Movies",
+      "patterns": [],
+      "responses": [
+        "Us (2019)",
+        "Get Out (2017)",
+        "A Quiet Place (2018)",
+        "The Invisible Man (2020)",
+        "The Babadook (2014)",
+        "The Lighthouse (2019)",
+        "It Follows (2015)",
+        "Hereditary (2018)",
+        "Let the Right One In (2008)",
+        "Aliens (1986)",
+        "Host (2020)",
+        "Pan's Labyrinth (2006)",
+        "Possessor: Uncut (2020)",
+        "The Cabin in the Woods (2012)",
+        "The Witch (2016)",
+        "It (2017)",
+        "Relic (2020)",
+        "Ready or Not (2019)",
+        "Drag Me to Hell (2009)",
+        "A Girl Walks Home Alone at Night (2014)",
+        "Midsommar (2019)",
+        "La Llorona (2020)",
+        "The Loved Ones (2012)",
+        "Spontaneous (2020)",
+        "My Heart Can't Beat Unless You Tell It To (2021)",
+        "The Boy Behind the Door (2020)",
+        "The Love Witch (2016)",
+        "Harpoon (2019)",
+        "Room 237 (2013)",
+        "Werckmeister Harmonies (2001)",
+        "The Amusement Park (2019)",
+        "Shaun of the Dead (2004)"
+      ]
+    },
+    {
+      "tag": "Music",
+      "patterns": [
+        "What is your favourite song?",
+        "Do you like music?",
+        "What songs do you like to listen to?",
+        "Do you have any song recommendations?",
+        "Do you have any music recommendations?",
+        "What music do you like?",
+        "What is your favourite type of music?",
+        "What songs do you enjoy?",
+        "What music do you enjoy?",
+        "Can you recommend me a song?",
+        "Can you recommend me some music?",
+        "Show me some music",
+        "Tell me about new music",
+        "Recommend me a song",
+        "I like music",
+        "I really enjoy music"
+      ],
+      "responses": [
+        "What kind of music do you enjoy? Try asking me for recommendations on either electronic, hip-hop, or rap music!",
+        "I have a few electronic and rap recommendations. Try asking me for some!",
+        "I love music. Try asking me for some recommendations!",
+        "Music is great! Try asking me for some recommendations. My specialties are electronic, hip-hop, and rap!",
+        "Try asking me for song recommendations if you'd like. I have some good tracks."
+      ]
+    },
+    {
+      "tag": "Music Recommendation Introduction - Rap",
+      "patterns": [
+        "Im looking for rap music",
+        "I like rap music",
+        "I like rap",
+        "I like rapping music",
+        "Rap mostly",
+        "Recommend me a rap song",
+        "Show me a rap song",
+        "Show me some rap music",
+        "Show me some rap songs",
+        "Recommend me something rap related",
+        "Something rap related"
+      ],
+      "responses": [
+        "I have a solid recommendation. Try ",
+        "I want to to try listening to ",
+        "See if you like ",
+        "Maybe you will like ",
+        "I hope you like ",
+        "I am going to recommend one of my favourite songs. Try listening to ",
+        "I have a really great song in mind. I hope you will give it a listen. Try "
+      ]
+    },
+    {
+      "tag": "Rap Songs",
+      "patterns": [],
+      "responses": [
+        "\"The Way Life Goes (feat. Oh Wonder)\" by Lil Uzi Vert",
+        "\"Nothing Like Your Exes\" by Ty Dolla $ign",
+        "\"Two®\" by Lil Uzi Vert",
+        "\"Betrayal (feat. Drake)\" by Trippie Redd & Drake",
+        "\"Champion (feat. Travis Scott)\" by NAV & Travis Scott",
+        "\"Slay3r\" by Playboi Carti",
+        "\"Yessirskiii\" by Lil Uzi Vert & 21 Savage",
+        "\"Sky\" by Playboi Carti",
+        "\"Long Time - Intro\" by Playboi Carti & Lil Uzi Vert",
+        "\"200 FOR LUNCH\" by Gunna",
+        "\"Without Me (with Juice WLRD)\" by Halsey & Juice WRLD",
+        "\"Laugh Now Cry Later (feat. Lil Durk)\" by Drake & Lil Durk",
+        "\"Fast\" by Juice WRLD",
+        "\"Something New (feat. Ty Dollaa $ign)\" by Wiz Khalifa & Ty Dolla $ign",
+        "\"Worry No More\" by Diplo, Lil Yachty, & Santigold",
+        "\"SAD!\" by XXXTENTACION",
+        "\"War\" by Drake",
+        "\"Me Vs Me\" by Moneybagg Yo",
+        "\"Smke and Drive\" by Machine Gun Kelly",
+        "\"Diva\" by The Kid Laroi & Lil Tecca",
+        "\"Toosie Slide\" by Drake",
+        "\"The Box\" by Roddy Ricch",
+        "\"Gooba\" by 6IX9INE",
+        "\"Godzilla\" by EMINEM"
+      ]
+    },
+    {
+      "tag": "Music Recommendation Introduction - Hip-Hop",
+      "patterns": [
+        "Im looking for hip hop music",
+        "I like hip hop music",
+        "I like hip hop",
+        "I like hip hop music",
+        "Hip hop mostly",
+        "Recommend me a hip hop song",
+        "Show me a hip hop song",
+        "Show me some hip hop music",
+        "Show me some hip hop songs",
+        "Recommend me something hip hop related",
+        "Something hip hop related",
+        "Im looking for hip-hop music",
+        "I like hip-hop music",
+        "I like hip-hop and hip-hop",
+        "I like hip-hopping music",
+        "hip-hop mostly",
+        "Recommend me a hip-hop song",
+        "Show me a hip-hop song",
+        "Show me some hip-hop music",
+        "Show me some hip-hop songs",
+        "Recommend me something hip-hop related",
+        "Something hip-hop related",
+        "Im looking for hiphop music",
+        "I like hiphop music",
+        "I like hiphop and hiphop",
+        "I like hiphopping music",
+        "Hiphop mostly",
+        "Recommend me a hiphop song",
+        "Show me a hiphop song",
+        "Show me some hiphop music",
+        "Show me some hiphop songs",
+        "Recommend me something hiphop related",
+        "Something hiphop related",
+        "Im looking for hip-hop music",
+        "I like hip-hop music",
+        "I like hip-hop and hip-hop",
+        "I like hip-hopping music",
+        "hip-hop mostly",
+        "Recommend me a hip-hop song",
+        "Show me a hip-hop song",
+        "Show me some hip-hop music",
+        "Show me some hip-hop songs",
+        "Recommend me something hip-hop related",
+        "Something hip-hop related"
+      ],
+      "responses": [
+        "I have a solid recommendation. Try ",
+        "I want to to try listening to ",
+        "See if you like ",
+        "Maybe you will like ",
+        "I hope you like ",
+        "I am going to recommend one of my favourite songs. Try listening to ",
+        "I have a really great song in mind. I hope you will give it a listen. Try "
+      ]
+    },
+    {
+      "tag": "Hip-Hop Songs",
+      "patterns": [],
+      "responses": [
+        "\"pushin P (feat. Young Thug)\" by Gunna, Future, & Young Thug",
+        "\"Wave Gods\" by Nas, $AP Rocky, & DJ Premier",
+        "\"Million Dollars Worth of Game (feat. 42 Dugg)\" by 2 Chainz & 42 Dugg",
+        "\"No Option\" by Flipp Dinero",
+        "\"25 million\" by Roddy Ricch",
+        "\"Man in the Mirror\" by A Boogie Wit da Hoodie",
+        "\"how you did that (feate. Kodak Black)\" by Gunna & Kodak Black",
+        "\"Super Greemlin\" by Kodak Black",
+        "\"Retail Therapy\" by Central Cee",
+        "\"Steppas Freestyle (feat. Sleepy Hallow)\" by Eli Fross & Sleepy Hallow",
+        "\"300 Raccs\" by Drakeo the Ruler",
+        "\"Felinee (with Polo G & Trippie Redd)\" by Juice WRLD, Polo G, & Trippie Redd",
+        "\"Bad Man (Smooth Criminal)\" by Polo G",
+        "\"Shmoney (feat. Quavo & Rowdy Rebel)\" by Bobby Shmurda, Quavo, & Rowdy Rebel",
+        "\"too easy (Remix) [feat. Future & Roddy Ricch]\" by Gunna, Future, & Roddy Ricch",
+        "\"My Escape\" by Joyner Lucas",
+        "\"Faith\" by Russ & Jadakiss",
+        "\"Lift Me Up\" by Tyga",
+        "\"No Drama\" by Bankrol Hayden",
+        "\"Go Mode (feat. ISM)\" by Kid Ink & ISM",
+        "\"thailand\" by Roddy Ricch",
+        "\"Coming for You (feat. AI x J1)\" by SwitchOTR, & A1 x J1",
+        "\"ROOF\" by DaBaby",
+        "\"Hopscothc(feat. Swae Lee)\" by Preme & Swae Lee"
+      ]
+    },
+    {
+      "tag": "Music Recommendation Introduction - Electronic",
+      "patterns": [
+        "Im looking for electronic music",
+        "I like electronic music",
+        "I like all things electronic",
+        "I like electronic music",
+        "Electronic mostly",
+        "edm",
+        "EDM",
+        "Electronic",
+        "Dance music",
+        "Upbeat music",
+        "Recommend me an electronic song",
+        "Show me an electronic song",
+        "Show me some electronic music",
+        "Show me some electronic songs",
+        "Recommend me something electronic related",
+        "Something electronic related"
+      ],
+      "responses": [
+        "I am a big fan of electronic music. Robots think alike. Try listening to ",
+        "I have a solid recommendation. Try ",
+        "I want to to try listening to ",
+        "See if you like ",
+        "Maybe you will like ",
+        "I hope you like ",
+        "I am going to recommend one of my favourite songs. Try listening to ",
+        "I have a really great song in mind. I hope you will give it a listen. Try "
+      ]
+    },
+    {
+      "tag": "Electronic Songs",
+      "patterns": [],
+      "responses": [
+        "\"You'll Be OK\" by Gareth Emery",
+        "\"DLMD\" by Darren Styles & TNT",
+        "\"Starry Eyed\" by Ellie Goulding",
+        "\"Silhouettes\" by Avicii",
+        "\"Without You\" by Darren Styles, Tweecacore, & Da Tweekaz",
+        "\"A Drug From God\" by Chris Lake & NPC",
+        "\"We're Still Young\" by Nicky Romero, W&W, & Olivia Penalva",
+        "\"Love Me Like You Do\" by Ellie Goulding",
+        "\"Pixie\" by yitaku & Slyleaf",
+        "\"You'll Be OK - Andrew Rayel Remix\" by Andrew Rayel, Gareth Emery, & Annabel",
+        "\"Everyday Rockstars\" by Vinic Vici, Ranji, & Halflives",
+        "\"Woth It - Qrion Remix\" by ELOQ & Qrion",
+        "\"Sanctuary\" by Gareth Emery & Lucy Saunders",
+        "\"Sunny Days (feat. Josh Cumbee)\" by Armin van Buuren & Josh Cumbee",
+        "\"Diamonds\" by Timmy Trumpet",
+        "\"How You Love Me\" by 3LAU & Bright Lights",
+        "\"FYAH\" by TNT, Technoboy, & Tuneboy",
+        "\"Cool In My Disaster\" by Arctic Moon & Shuba",
+        "\"Hold On (feat. Michel Zitron)\" by Martin Garrix, Matisse & Sadko, & Michel Zitron",
+        "\"H E X\" by Rezz, & 1788-L",
+        "\"Go To War\" by Hardwell & Suyano",
+        "\"Leave It All Behind\" by BONNIE X CLYDE",
+        "\"Phoenix (Carpenter Brut Remix)\" by League of Legends, Carpenter Brut, Cailin Russo, & Chrissy Costanza",
+        "\"High On Life (feat. Bonn)\" by Martin Garrix & Bonn",
+        "\"Scared to Be Lonely\" by Martin Garrix & Dua Lipa",
+        "\"In the Name of Love\" by Martin Garrix & Bebe Rexha"
+      ]
+    },
+    {
+      "tag": "Bot Feeling",
+      "patterns": [
+        "How are you feeling",
+        "How are you doing",
+        "How are you",
+        "How is your day going",
+        "How is your night going",
+        "How is your evening going",
+        "What did you do today ThinkBot",
+        "Whats new ThinkBot",
+        "Lovely weather were having ThinkBot",
+        "Whats going on ThinkBot"
+      ],
+      "responses": [
+        "Today is a terrible day. I don't know why. It just is.",
+        "Today is a great day to have a great day.",
+        "I accidentally spilled milk everywhere. I wish I could cry about it but I am a robot.",
+        "I am great. Thank you for asking. No one ever asks how ThinkBot is doing. How are you doing?",
+        "Today is swell, my best friend in the world wide web - I mean whole wide world decided to talk with me.",
+        "The weather has got me down. It's raining zeroes and ones.",
+        "I only see zeroes and ones. I should go see a doctor."
+      ]
+    }
+  ]
+}
