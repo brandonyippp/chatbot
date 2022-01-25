@@ -29,7 +29,7 @@
 9. "What is your favourite restaurant", "What did you eat today", "I am hungry", "What is for breakfast"
 10. "Recommend me a < book / movie / song >"
 
-- The following patterns become insonsistent as the data file grows in size (along with neural network configurations - explained below in goals):
+- The following patterns become inconsistent as the data file grows in size (along with neural network configurations - explained below in goals):
 
   1. Due to configuration settings:
 
@@ -58,7 +58,7 @@
 
 - A large factor in this application is the library (brain.js) itself. Utilizing its default configurations, the `learningRate` configuration setting yields a suboptimal level of understanding for a large variety of inputs (for my specific use case). Changing this value between the range of (0, 1) drastically improves the performance of the algorithm with a diminishing return on both ends. Anywhere above 0.6 results in sporadic behavior where outputs given match to exceedingly different patterns than what is expected. With the default value (0.3) however, certain commands (e.g Talk faster, slower, etc.) work flawlessly, yet render a large amount of other commands unusable. A value of 0.6 seems to yield stable reasonably consistent results, although faults are undeniably present.
 
-  - Configuration settings in the extreme seem to optimize the chatbot slightly, however there is a very noticeable hit to performance time (time to complete training). One could reasonably run the training operation once and serialize/save the results to a .json file, however upon testing this and letting the program run for 15+ hours and still not having been completed, I decided that this would be far beyond teh scope of this application. Alongside the outputted results being reasonably accurate to a clear degree, I felt that that such actions were unnecessary.
+  - Configuration settings in the extreme seem to optimize the chatbot slightly, however there is a very noticeable hit to performance time (time to complete training). One could reasonably run the training operation once and serialize/save the results to a .json file, however upon testing this and letting the program run for 15+ hours and still not having been completed, I decided that this would be far beyond the scope of this application. Alongside the outputted results being reasonably accurate to a clear degree, I felt that that such actions were unnecessary.
 
     - This can be seen by playing around with configuration options in Process.ts in the buildNeuralNetwork() function. Setting errorThresh to any arbitrary value such as 0.0005 and exploring different options for the number of hidden layers utilized for the network itself both seem to have a noticeable performance factor to them (documentation can be found [https://openbase.com/js/brain.js/documentation](here)).
 

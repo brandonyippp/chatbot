@@ -132,6 +132,7 @@ export class StateManagerService {
       Output.speechSpeed -= Constants.SPEECH_SPEED_INCREMENT;
     }
   }
+
   public get states() {
     return this._states;
   }

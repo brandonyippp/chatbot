@@ -172,8 +172,6 @@ export class ResponseService {
     const highestProbabilityIndex: number =
       this.determineIndexOfLargestElement(probabilities);
 
-    console.log(highestProbabilityIndex);
-
     const miscellaneousTagIndex: number =
       this.determineTagIndex("Miscellaneous");
 
