@@ -81,11 +81,11 @@
 ## Roadmap
 
 - [x] Periodic check-in messages on set interval if no user input received
-- [ ] Python server that manages calls via cloud functions to POST/GET data rather than local .json file
-- [ ] Google Search API in cases where bot is unfamiliar with input (Highest probability category < THRESHOLD)
+- [x] Python server that manages calls via cloud functions to POST/GET data rather than local .json file
+- [x] Google Search API in cases where bot is unfamiliar with input (Highest probability category < THRESHOLD)
 - [ ] Multi-language Support via Google Translation API
-- [ ] Improve Neural Network configurations to improve generated responses (speech speed/toggle, discerning similar patterns such as "How are you" and "How old are you")
-- [ ] Implement preprocessing of intent data rather than during runtime, including (but not limited to) object serialization and save-to-file
+- [x] Improve Neural Network configurations to improve generated responses (speech speed/toggle, discerning similar patterns such as "How are you" and "How old are you")
+- [x] Implement preprocessing of intent data rather than during runtime, including (but not limited to) object serialization and save-to-file
 
 ## Acknowledgments
 
